@@ -98,6 +98,9 @@ class GameOfLife
                     decide(count,i,j);
                     count=0;
                 }
+                
+                /** Following loops cover edge cases for the new state **/
+                
                 else if(i==0&&j==0)//survival logic for fist square of the first row
                 {
                     for(k=i;k<(i+2);k++)
