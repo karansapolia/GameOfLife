@@ -39,7 +39,7 @@ class GameOfLife
             {
             dead=" ";alive="#";
             }
-        for(i=0;i<40;i++)//initialising matrix world to all squares dead
+        for(i=0;i<40;i++)//initialising all matrix world squares to dead state
         {
             for(j=0;j<40;j++)
             {
